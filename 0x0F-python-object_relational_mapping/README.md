@@ -1,15 +1,10 @@
 # Python - Object-relational mapping
 
-In this project, I learned about how object-relational mapping is used for
-database scripting. I became familiar with using MySQLdb and SQLAlchemy to
+this project, teaches the concepts about object-relational mapping which is used for
+database scripting. And it also teaches about MySQLdb and SQLAlchemy to
 query, create, edit, and delete tables in MySQL.
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of SQL and Python scripts for setting up test tables
-for all files. Provided by ALX.
-
-## Tasks :page_with_curl:
+## Tasks 
 
 * **0. Get all states**
   * [0-select_states.py](./0-select_states.py): Python script that uses MySQLdb
@@ -127,6 +122,7 @@ for all files. Provided by ALX.
   * Usage: `./14-model_city_fetch_by_state.py <mysql username> <mysql password>
   <database name>`.
   * Results are sorted by ascending `cities.id`.
+
 
 * **15. City relationship**
   * [relationship_state.py](./relationship_state.py): Python module defining a
